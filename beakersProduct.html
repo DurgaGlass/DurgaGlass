@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Durga Laboratory Glass Works</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+      /* Heading for each row section */
+      .row-heading {
+        font-weight: 600;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        color: #6c757d;
+      }
+
+      /* Product row base styles */
+      .product-row {
+        padding: 0.75rem 0;
+        border-bottom: 1px solid #dee2e6;
+        transition: all 0.3s ease;
+      }
+
+      /* Hover effects for product row */
+      .product-row:hover {
+        background-color: #e9f5ff; /* Light blue */
+        cursor: pointer;
+      }
+
+      .product-row a {
+        text-decoration: none;
+        color: #0d6efd;
+      }
+
+      .product-row a:hover {
+        text-decoration: underline;
+      }
+
+      /* Optional: Change text color on hover */
+      .product-row:hover .text-dark {
+        color: #007bff !important;
+      }
+
+      /* Product card container */
+      .product.card {
+        border: 3px solid #002f87;
+        border-radius: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Product image and header */
+      .product img,
+      .product-header img {
+        border-radius: 0.5rem;
+      }
+
+      .product-header h3 {
+        color: #007bff;
+        transition: color 0.3s ease;
+        text-transform: uppercase;
+      }
+      .product-header h3:hover {
+        color: #002c5b;
+        text-decoration: underline;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .row-heading,
+        .product-row > div {
+          font-size: 0.85rem;
+        }
+
+        .product-header h3 {
+          font-size: 1.1rem;
+        }
+
+        .product-header .col-md-4,
+        .product-header .col-md-8 {
+          text-align: center;
+        }
+      }
+      .btn-see-price {
+        transition: all 0.3s ease;
+      }
+
+      .btn-see-price:hover {
+        background-color: #fff !important;
+        color: #007bff !important;
+        border-color: var(--bs-primary) !important;
+      }
+      /* Smaller text on smaller screens */
+      .small-text {
+        font-size: 14px;
+      }
+
+      @media (max-width: 576px) {
+        .small-text {
+          font-size: 8px !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        role="status"
+        style="width: 3rem; height: 3rem"
+      ></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Brand Start -->
+    <div
+    class="container-fluid bg-primary text-white  d-none d-lg-flex"
+  >
+    <div class="container pb-2">
+      <div class="d-flex align-items-center justify-content-between">
+        <div class="d-flex" style="font-size: 8px;">
+          <i class="bi bi-telephone-inbound "></i>
+          <div class="ms-3">
+            <p class="text-white mb-0">Call Now</p>
+            <span>+91-9897012296, +91-7017632563</span>
+          </div>
+        </div>
+        <div class="d-flex align-items-center gap-3" style="font-size: 8px;">
+          <i class="bi bi-envelope "></i>
+          <div class="ms-3">
+            <p class="text-white mb-0">Mail Now</p>
+            <span>durgalaboratoryglassworks@gmail.com</span>
+          </div>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+        </div>
+      </div>
+    </div>
+  </div>
+    
+   
+    
+    <!-- Brand End -->
+
+    <!-- Navbar Start -->
+    <div class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3" style="background-color: white;">
+      <div class="container">
+        <a href="index.html" class="navbar-brand d-flex align-items-center gap-2">
+          <img src="image.png" alt="Logo" style="width: 100px; height: 60px" />
+          <div>
+            <h1 class="m-0 text-primary text-uppercase fw-bold fs-6">
+              Durga Laboratory
+              <span class="d-block text-dark" style="font-size: 0.8rem;">Glass Works</span>
+            </h1>
+          </div>
+        </a>
+    
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="product.html" class="nav-link">Products</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                Pages
+              </a>
+              <div class="dropdown-menu">
+                <a href="feature.html" class="dropdown-item">Features</a>
+                <a href="team.html" class="dropdown-item">Our Team</a>
+                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+              </div>
+            </div>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid page-header py-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container text-center py-5 mt-4">
+        <h1 class="display-2 text-white mb-3 animated slideInDown">Products</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item"><a href="product.html">Products</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Beakers</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+    <!-- Products Start -->
+    <div class="container py-5">
+      <div class="gap-4">
+        <!-- 167 - Beakers, Low Form, with Spout, Graduated -->
+        <div class="product card shadow-sm p-4 mb-4 bg-white rounded-4">
+          <div class="row product-header align-items-center mb-4">
+            <div class="col-md-4 text-center mb-3 mb-md-0">
+              <a href="#">
+                <div class="p-3 bg-light rounded-3 shadow-sm d-inline-block">
+                  <img
+                    class="img-fluid"
+                    src="img/Picture167.jpg"
+                    alt="Beakers, Low Form, with Spout, Graduated"
+                    style="width: 160px; height: 120px; object-fit: contain"
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-8">
+              <a href="#" class="text-decoration-none text-dark">
+                <h3 class="h5">1. Beakers, Low Form, with Spout, Graduated</h3>
+              </a>
+              <p class="text-dark mb-3">Product Code: DU167 Series</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <div id="section-167">
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8 text-center">
+                  <div class="row row-heading small-text">
+                    <div class="col-4 text-dark">Product Code</div>
+                    <div class="col-4 text-dark">Capacity (ml)</div>
+                    <div class="col-4 text-dark">Approx. O.D × Height (mm)</div>
+                  </div>
+
+                  <div class="product-row row">
+                    <div class="col-4 text-dark small-text">DU167.005</div>
+                    <div class="col-4 text-dark small-text">5 ml</div>
+                    <div class="col-4 text-dark small-text">22 × 30</div>
+                  </div>
+                  <div class="product-row row">
+                    <div class="col-4 text-dark small-text">DU167.006</div>
+                    <div class="col-4 text-dark small-text">10 ml</div>
+                    <div class="col-4 text-dark small-text">26 × 35</div>
+                  </div>
+                  <div class="product-row row">
+                    <div class="col-4 text-dark small-text">DU167.007</div>
+                    <div class="col-4 text-dark small-text">25 ml</div>
+                    <div class="col-4 text-dark small-text">34 × 50</div>
+                  </div>
+                  <div class="product-row row">
+                    <div class="col-4 text-dark small-text">DU167.008</div>
+                    <div class="col-4 text-dark small-text">50 ml</div>
+                    <div class="col-4 text-dark small-text">42 × 60</div>
+                  </div>
+
+                  <div class="collapse" id="more-167">
+                    <div class="product-row row">
+                      <div class="col-4 text-dark small-text">DU167.009</div>
+                      <div class="col-4 text-dark small-text">100 ml</div>
+                      <div class="col-4 text-dark small-text">50 × 70</div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-4 text-dark small-text">DU167.010</div>
+                      <div class="col-4 text-dark small-text">150 ml</div>
+                      <div class="col-4 text-dark small-text">55 × 80</div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-4 text-dark small-text">DU167.011</div>
+                      <div class="col-4 text-dark small-text">250 ml</div>
+                      <div class="col-4 text-dark small-text">68 × 95</div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-4 text-dark small-text">DU167.012</div>
+                      <div class="col-4 text-dark small-text">400 ml</div>
+                      <div class="col-4 text-dark small-text">80 × 110</div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-4 text-dark small-text">DU167.013</div>
+                      <div class="col-4 text-dark small-text">500 ml</div>
+                      <div class="col-4 text-dark small-text">83 × 115</div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-4 text-dark small-text">DU167.014</div>
+                      <div class="col-4 text-dark small-text">600 ml</div>
+                      <div class="col-4 text-dark small-text">90 × 125</div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-4 text-dark small-text">DU167.015</div>
+                      <div class="col-4 text-dark small-text">1000 ml</div>
+                      <div class="col-4 text-dark small-text">105 × 145</div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-4 text-dark small-text">DU167.016</div>
+                      <div class="col-4 text-dark small-text">2000 ml</div>
+                      <div class="col-4 text-dark small-text">131 × 185</div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-4 text-dark small-text">DU167.017</div>
+                      <div class="col-4 text-dark small-text">3000 ml</div>
+                      <div class="col-4 text-dark small-text">150 × 210</div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-4 text-dark small-text">DU167.018</div>
+                      <div class="col-4 text-dark small-text">5000 ml</div>
+                      <div class="col-4 text-dark small-text">170 × 270</div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-4 text-dark small-text">DU167.019</div>
+                      <div class="col-4 text-dark small-text">10000 ml</div>
+                      <div class="col-4 text-dark small-text">220 × 350</div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="d-flex justify-content-center align-items-center gap-3 mt-3"
+                  >
+                    <button
+                      class="see-more-btn btn btn-outline-primary btn-sm px-4"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#more-167"
+                      aria-expanded="false"
+                      onclick="toggleBtnText(this)"
+                    >
+                      See more
+                    </button>
+                    <div>
+                      <a
+                        href="contact.html"
+                        class="btn btn-sm btn-see-price px-4 border border-primary bg-primary text-white shadow-sm"
+                        onmousedown="this.style.transform='scale(0.95)'"
+                        onmouseup="this.style.transform='scale(1)'"
+                      >
+                        See Price
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Products End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial py-5">
+      <div class="container pt-5">
+        <div class="row gy-5 gx-0">
+          <div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
+            <h1 class="display-6 text-white mb-4">
+              What Our Clients Say About Our Glassware
+            </h1>
+            <p class="text-white mb-5">
+              Trusted by researchers, educators, and manufacturers across India,
+              we take pride in offering durable, high-precision laboratory
+              glassware that meets global standards.
+            </p>
+            <a href="#" class="btn btn-primary py-3 px-5">More Testimonials</a>
+          </div>
+          <div class="col-lg-6 mb-n5 wow fadeIn" data-wow-delay="0.5s">
+            <div class="bg-white p-5">
+              <div
+                class="owl-carousel testimonial-carousel wow fadeIn"
+                data-wow-delay="0.1s"
+              >
+                <div class="testimonial-item">
+                  <div class="icon-box-primary mb-4">
+                    <i class="bi bi-chat-left-quote text-dark"></i>
+                  </div>
+                  <p class="fs-5 mb-4">
+                    We’ve been using glassware from Durga Laboratory for over
+                    five years now, and the quality has always exceeded our
+                    expectations. The precision in measurements, durability
+                    under repeated sterilizations, and overall finish of the
+                    products make them ideal for our research lab. Their
+                    customer service is also excellent — responsive, helpful,
+                    and willing to customize products based on our needs. Highly
+                    recommended for any laboratory that values consistency and
+                    quality.
+                  </p>
+                  <div class="ps-3">
+                    <h5 class="mb-1">Dr. Anjali Mehta</h5>
+                    <span class="text-primary"
+                      >Senior Research Scientist, Mumbai</span
+                    >
+                  </div>
+                </div>
+                <div class="testimonial-item">
+                  <div class="icon-box-primary mb-4">
+                    <i class="bi bi-chat-left-quote text-dark"></i>
+                  </div>
+                  <p class="fs-5 mb-4">
+                    Durga Laboratory glassware has been our go-to choice for the
+                    past three academic years. The quality and consistency are
+                    perfect for student experiments as well as our research
+                    work. We especially appreciate the prompt delivery and the
+                    ability to get customized items for specific lab setups.
+                  </p>
+                  <div class="ps-3">
+                    <h5 class="mb-1">Prof. Rajeev Kulkarni</h5>
+                    <span class="text-primary"
+                      >Department of Chemistry, Pune University</span
+                    >
+                  </div>
+                </div>
+                <div class="testimonial-item">
+                  <div class="icon-box-primary mb-4">
+                    <i class="bi bi-chat-left-quote text-dark"></i>
+                  </div>
+                  <p class="fs-5 mb-4">
+                    We run a high-volume materials testing lab, and durability
+                    is crucial for us. The glassware from Durga Laboratory holds
+                    up excellently under daily use, even in high-temperature and
+                    pressure settings. Their disposable range has also made our
+                    workflow more efficient. Great partner to work with.
+                  </p>
+                  <div class="ps-3">
+                    <h5 class="mb-1">Vikas Sharma</h5>
+                    <span class="text-primary">Lab Manager</span>
+                  </div>
+                </div>
+                <div class="testimonial-item">
+                  <div class="icon-box-primary mb-4">
+                    <i class="bi bi-chat-left-quote text-dark"></i>
+                  </div>
+                  <p class="fs-5 mb-4">
+                    What stands out with Durga is not just the product quality,
+                    but their understanding of how laboratories actually work.
+                    Their culture tubes and pipettes have become a regular part
+                    of our diagnostics bench. We also appreciate the QR code
+                    feature in their catalog — it makes reordering so easy.
+                  </p>
+                  <div class="ps-3">
+                    <h5 class="mb-1">Dr. Neha Thomas</h5>
+                    <span class="text-primary">Pathologist</span>
+                  </div>
+                </div>
+                <div class="testimonial-item">
+                  <div class="icon-box-primary mb-4">
+                    <i class="bi bi-chat-left-quote text-dark"></i>
+                  </div>
+                  <p class="fs-5 mb-4">
+                    Their volumetric flasks and custom-made apparatus helped
+                    streamline our college lab setups. We appreciate their
+                    attention to detail and willingness to customize according
+                    to our curriculum needs.
+                  </p>
+                  <div class="d-flex align-items-center">
+                    <div class="ps-3">
+                      <h5 class="mb-1">Prof. Anil Verma</h5>
+                      <span class="text-primary">Lab Coordinator</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add more testimonials here if needed -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container">
+        <div class="row g-5 py-5">
+          <div class="col-lg-6 pe-lg-5">
+            <a href="index.html" class="navbar-brand">
+              <h1
+                class="h1 text-primary mb-0 fw-bold text-uppercase fs-4 fs-sm-3 fs-md-2 display-6 display-lg-5"
+              >
+                Durga Laboratory<span class="d-block d-sm-inline text-white">
+                  Glass Works</span
+                >
+              </h1>
+            </a>
+            <p class="mb-4">
+              Durable borosilicate beakers in multiple sizes, ideal for mixing,
+              heating, and experiments.
+            </p>
+            <p>
+              <i class="fa fa-map-marker-alt me-2"></i>43/3, Balwant Nagar,
+              Behind K. K Nagar, Sikandra, Agra - 07
+            </p>
+            <p>
+              <i class="fa fa-phone-alt me-2"></i>+91-9897012296, +91-7017632563
+            </p>
+            <p>
+              <i class="fa fa-envelope me-2"></i
+              >durgalaboratoryglassworks@gmail.com
+            </p>
+            <div class="d-flex mt-4">
+              <a class="btn btn-lg-square btn-primary me-2" href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-lg-square btn-primary me-2" href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-lg-square btn-primary me-2" href="#"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a class="btn btn-lg-square btn-primary me-2" href="#"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-6 ps-lg-5">
+            <div class="row g-5">
+              <div class="col-sm-6">
+                <h4 class="text-light mb-4">Quick Links</h4>
+                <a class="btn btn-link" href="about.html">About Us</a>
+                <a class="btn btn-link" href="contact.html">Contact Us</a>
+                <a class="btn btn-link" href="product.html">Our Products</a>
+                <a class="btn btn-link" href="termsandcondition.html"
+                  >Terms & Condition</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark text-white-50 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-0">
+              &copy; <a href="#">Durga Laboratory Glass Works</a>. All Rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+      function toggleBtnText(btn) {
+        const targetId = btn.getAttribute("data-bs-target");
+        const target = document.querySelector(targetId);
+        const isExpanded = target.classList.contains("show");
+        btn.innerText = isExpanded ? "See more" : "See less";
+      }
+
+      // Fix button text on toggle complete (for accordion-like effect)
+      document.querySelectorAll(".collapse").forEach((collapseEl) => {
+        collapseEl.addEventListener("shown.bs.collapse", (e) => {
+          const btn = document.querySelector(
+            `[data-bs-target="#${collapseEl.id}"]`
+          );
+          if (btn) btn.innerText = "See less";
+        });
+        collapseEl.addEventListener("hidden.bs.collapse", (e) => {
+          const btn = document.querySelector(
+            `[data-bs-target="#${collapseEl.id}"]`
+          );
+          if (btn) btn.innerText = "See more";
+        });
+      });
+    </script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

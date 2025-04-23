@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Durga Laboratory Glass Works</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+      /* Heading for each row section */
+      .row-heading {
+        font-weight: 600;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        color: #6c757d;
+      }
+
+      /* Product row base styles */
+      .product-row {
+        padding: 0.75rem 0;
+        border-bottom: 1px solid #dee2e6;
+        transition: all 0.3s ease;
+      }
+
+      /* Hover effects for product row */
+      .product-row:hover {
+        background-color: #e9f5ff; /* Light blue */
+        cursor: pointer;
+      }
+
+      .product-row a {
+        text-decoration: none;
+        color: #0d6efd;
+      }
+
+      .product-row a:hover {
+        text-decoration: underline;
+      }
+
+      /* Optional: Change text color on hover */
+      .product-row:hover .text-dark {
+        color: #007bff !important;
+      }
+
+      /* Product card container */
+      .product.card {
+        border: 3px solid #002f87;
+        border-radius: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Product image and header */
+      .product img,
+      .product-header img {
+        border-radius: 0.5rem;
+      }
+
+      .product-header h3 {
+        color: #007bff;
+        transition: color 0.3s ease;
+        text-transform: uppercase;
+      }
+      .product-header h3:hover {
+        color: #002c5b;
+        text-decoration: underline;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .row-heading,
+        .product-row > div {
+          font-size: 0.85rem;
+        }
+
+        .product-header h3 {
+          font-size: 1.1rem;
+        }
+
+        .product-header .col-md-4,
+        .product-header .col-md-8 {
+          text-align: center;
+        }
+      }
+      .btn-see-price {
+        transition: all 0.3s ease;
+      }
+
+      .btn-see-price:hover {
+        background-color: #fff !important;
+        color: #007bff !important;
+        border-color: var(--bs-primary) !important;
+      }
+      .small-text {
+        font-size: 14px;
+      }
+
+      @media (max-width: 576px) {
+        .small-text {
+          font-size: 8px !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        role="status"
+        style="width: 3rem; height: 3rem"
+      ></div>
+    </div>
+    <!-- Spinner End -->
+
+   <!-- Brand Start -->
+   <div
+   class="container-fluid bg-primary text-white  d-none d-lg-flex"
+ >
+   <div class="container pb-2">
+     <div class="d-flex align-items-center justify-content-between">
+       <div class="d-flex" style="font-size: 8px;">
+         <i class="bi bi-telephone-inbound "></i>
+         <div class="ms-3">
+           <p class="text-white mb-0">Call Now</p>
+           <span>+91-9897012296, +91-7017632563</span>
+         </div>
+       </div>
+       <div class="d-flex align-items-center gap-3" style="font-size: 8px;">
+         <i class="bi bi-envelope "></i>
+         <div class="ms-3">
+           <p class="text-white mb-0">Mail Now</p>
+           <span>durgalaboratoryglassworks@gmail.com</span>
+         </div>
+       </div>
+       <div class="d-flex align-items-center gap-3">
+       </div>
+     </div>
+   </div>
+ </div>
+   
+  
+   
+   <!-- Brand End -->
+
+   <!-- Navbar Start -->
+   <div class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm py-3" style="background-color: white;">
+     <div class="container">
+       <a href="index.html" class="navbar-brand d-flex align-items-center gap-2">
+         <img src="image.png" alt="Logo" style="width: 100px; height: 60px" />
+         <div>
+           <h1 class="m-0 text-primary text-uppercase fw-bold fs-6">
+             Durga Laboratory
+             <span class="d-block text-dark" style="font-size: 0.8rem;">Glass Works</span>
+           </h1>
+         </div>
+       </a>
+   
+       <button
+         class="navbar-toggler"
+         type="button"
+         data-bs-toggle="collapse"
+         data-bs-target="#navbarCollapse"
+         aria-controls="navbarCollapse"
+         aria-expanded="false"
+         aria-label="Toggle navigation"
+       >
+         <span class="navbar-toggler-icon"></span>
+       </button>
+   
+       <div class="collapse navbar-collapse" id="navbarCollapse">
+         <div class="navbar-nav ms-auto">
+           <a href="index.html" class="nav-link">Home</a>
+           <a href="about.html" class="nav-link">About</a>
+           <a href="product.html" class="nav-link">Products</a>
+           <div class="nav-item dropdown">
+             <a
+               href="#"
+               class="nav-link dropdown-toggle"
+               data-bs-toggle="dropdown"
+             >
+               Pages
+             </a>
+             <div class="dropdown-menu">
+               <a href="feature.html" class="dropdown-item">Features</a>
+               <a href="team.html" class="dropdown-item">Our Team</a>
+               <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+             </div>
+           </div>
+           <a href="contact.html" class="nav-link">Contact</a>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid page-header py-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container text-center py-5 mt-4">
+        <h1 class="display-2 text-white mb-3 animated slideInDown">Products</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item"><a href="product.html">Products</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Round bottom Flask</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+    <!-- Products Start -->
+    <div class="container py-5">
+      <div class="gap-4">
+        <!-- DU114 – Round & Flat Bottom Flasks with Narrow Neck & Beaded Rim -->
+        <div class="product card shadow-sm p-4 mb-4 bg-white rounded-4">
+          <div class="row product-header align-items-center mb-4">
+            <div class="col-md-4 text-center mb-3 mb-md-0">
+              <a href="#">
+                <div class="p-3 bg-light rounded-3 shadow-sm d-inline-block">
+                  <img
+                    class="img-fluid"
+                    src="img/Picture114.jpg"
+                    alt="Flask, Round Bottom & Flat Bottom"
+                    style="width: 160px; height: 120px; object-fit: contain"
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-8">
+              <a href="#" class="text-decoration-none text-dark">
+                <h3 class="h5">
+                  1. Flask, Round Bottom & Flat Bottom, Narrow Neck with Beaded
+                  Rim
+                </h3>
+              </a>
+              <p class="text-dark mb-3">Product Code: DU114 Series</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <!-- Category Section -->
+            <div id="section-114">
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8 text-center small-text">
+                  <!-- Heading -->
+                  <div class="row row-heading small-text">
+                    <div class="col-4 text-dark">Product Code</div>
+                    <div class="col-2 text-dark">Capacity (ml)</div>
+                    <div class="col-3 text-dark">O.D x Height (mm)</div>
+                    <div class="col-3 text-dark">Neck O.D (mm)</div>
+                  </div>
+          
+                  <!-- Visible Rows -->
+                  <div class="product-row row">
+                    <p class="col-4 text-dark">DU114.025</p>
+                    <p class="col-2 text-dark">25 ml</p>
+                    <p class="col-3 text-dark">42 x 90</p>
+                    <p class="col-3 text-dark">20</p>
+                  </div>
+                  <div class="product-row row">
+                    <p class="col-4 text-dark">DU114.026</p>
+                    <p class="col-2 text-dark">50 ml</p>
+                    <p class="col-3 text-dark">51 x 95</p>
+                    <p class="col-3 text-dark">26</p>
+                  </div>
+                  <div class="product-row row">
+                    <p class="col-4 text-dark">DU114.027</p>
+                    <p class="col-2 text-dark">100 ml</p>
+                    <p class="col-3 text-dark">64 x 110</p>
+                    <p class="col-3 text-dark">26</p>
+                  </div>
+                  <div class="product-row row">
+                    <p class="col-4 text-dark">DU114.028</p>
+                    <p class="col-2 text-dark">150 ml</p>
+                    <p class="col-3 text-dark">75 x 137</p>
+                    <p class="col-3 text-dark">28</p>
+                  </div>
+          
+                  <!-- Hidden Rows -->
+                  <div class="collapse" id="more-114">
+                    <div class="product-row row">
+                      <p class="col-4 text-dark">DU114.029</p>
+                      <p class="col-2 text-dark">250 ml</p>
+                      <p class="col-3 text-dark">85 x 145</p>
+                      <p class="col-3 text-dark">34</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-4 text-dark">DU114.030</p>
+                      <p class="col-2 text-dark">300 ml</p>
+                      <p class="col-3 text-dark">87 x 160</p>
+                      <p class="col-3 text-dark">24</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-4 text-dark">DU114.031</p>
+                      <p class="col-2 text-dark">500 ml</p>
+                      <p class="col-3 text-dark">105 x 170</p>
+                      <p class="col-3 text-dark">34</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-4 text-dark">DU114.032</p>
+                      <p class="col-2 text-dark">1000 ml</p>
+                      <p class="col-3 text-dark">131 x 205</p>
+                      <p class="col-3 text-dark">42</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-4 text-dark">DU114.033</p>
+                      <p class="col-2 text-dark">2000 ml</p>
+                      <p class="col-3 text-dark">166 x 240</p>
+                      <p class="col-3 text-dark">51</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-4 text-dark">DU114.034</p>
+                      <p class="col-2 text-dark">3000 ml</p>
+                      <p class="col-3 text-dark">190 x 305</p>
+                      <p class="col-3 text-dark">50</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-4 text-dark">DU114.035</p>
+                      <p class="col-2 text-dark">5000 ml</p>
+                      <p class="col-3 text-dark">225 x 350</p>
+                      <p class="col-3 text-dark">60</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-4 text-dark">DU114.036</p>
+                      <p class="col-2 text-dark">6000 ml</p>
+                      <p class="col-3 text-dark">236 x 330</p>
+                      <p class="col-3 text-dark">65</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-4 text-dark">DU114.037</p>
+                      <p class="col-2 text-dark">10000 ml</p>
+                      <p class="col-3 text-dark">285 x 380</p>
+                      <p class="col-3 text-dark">65</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-4 text-dark">DU114.038</p>
+                      <p class="col-2 text-dark">20000 ml</p>
+                      <p class="col-3 text-dark">350 x 505</p>
+                      <p class="col-3 text-dark">87</p>
+                    </div>
+                  </div>
+          
+                  <!-- See More Button -->
+                  <div class="d-flex justify-content-center align-items-center gap-3 mt-3">
+                    <button class="see-more-btn btn btn-outline-primary btn-sm px-4" data-bs-toggle="collapse" data-bs-target="#more-114" aria-expanded="false" onclick="toggleBtnText(this)">
+                      See more
+                    </button>
+                    <div>
+                      <a href="contact.html" class="btn btn-sm btn-see-price px-4 border border-primary bg-primary text-white shadow-sm" onmousedown="this.style.transform='scale(0.95)'" onmouseup="this.style.transform='scale(1)'">
+                        See Price
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <!-- 114B - Flask, Round & Flat Bottom, Narrow Neck with Beaded Rim (Heavy Wall) -->
+        <div class="product card shadow-sm p-4 mb-4 bg-white rounded-4">
+          <div class="row product-header align-items-center mb-4">
+            <div class="col-md-4 text-center mb-3 mb-md-0">
+              <a href="#">
+                <div class="p-3 bg-light rounded-3 shadow-sm d-inline-block">
+                  <img
+                    class="img-fluid"
+                    src="img/Picture114B.jpg"
+                    alt="Flask, Round & Flat Bottom, Narrow Neck with Beaded Rim (Heavy Wall)"
+                    style="width: 160px; height: 120px; object-fit: contain"
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-8">
+              <a href="#" class="text-decoration-none text-dark">
+                <h3 class="h5">
+                  2. Flask, Round & Flat Bottom, Narrow Neck with Beaded Rim
+                  (Heavy Wall)
+                </h3>
+              </a>
+              <p class="text-dark mb-3">Product Code: DU114B Series</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <div id="section-114B">
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8 text-center small-text">
+                  <!-- Heading -->
+                  <div class="row row-heading fw-semibold small-text">
+                    <p class="col-3 text-dark">Product Code</p>
+                    <p class="col-2 text-dark">Capacity (ml)</p>
+                    <p class="col-3 text-dark">O.D x Height (mm)</p>
+                    <p class="col-2 text-dark">Neck O.D (mm)</p>
+                    <p class="col-2 text-dark">Weight</p>
+                  </div>
+          
+                  <!-- Product Rows -->
+                  <div class="product-row row">
+                    <p class="col-3 text-dark">DU114B.025</p>
+                    <p class="col-2 text-dark">25 ml</p>
+                    <p class="col-3 text-dark">42 x 90</p>
+                    <p class="col-2 text-dark">20</p>
+                    <p class="col-2 text-dark">60 gm</p>
+                  </div>
+                  <div class="product-row row">
+                    <p class="col-3 text-dark">DU114B.026</p>
+                    <p class="col-2 text-dark">50 ml</p>
+                    <p class="col-3 text-dark">51 x 95</p>
+                    <p class="col-2 text-dark">26</p>
+                    <p class="col-2 text-dark">80 gm</p>
+                  </div>
+                  <div class="product-row row">
+                    <p class="col-3 text-dark">DU114B.027</p>
+                    <p class="col-2 text-dark">100 ml</p>
+                    <p class="col-3 text-dark">64 x 110</p>
+                    <p class="col-2 text-dark">26</p>
+                    <p class="col-2 text-dark">100 gm</p>
+                  </div>
+                  <div class="product-row row">
+                    <p class="col-3 text-dark">DU114B.028</p>
+                    <p class="col-2 text-dark">150 ml</p>
+                    <p class="col-3 text-dark">75 x 137</p>
+                    <p class="col-2 text-dark">28</p>
+                    <p class="col-2 text-dark">110 gm</p>
+                  </div>
+                  <div class="collapse" id="more-114B">
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU114B.029</p>
+                      <p class="col-2 text-dark">250 ml</p>
+                      <p class="col-3 text-dark">85 x 145</p>
+                      <p class="col-2 text-dark">34</p>
+                      <p class="col-2 text-dark">140 gm</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU114B.030</p>
+                      <p class="col-2 text-dark">300 ml</p>
+                      <p class="col-3 text-dark">87 x 160</p>
+                      <p class="col-2 text-dark">24</p>
+                      <p class="col-2 text-dark">145 gm</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU114B.031</p>
+                      <p class="col-2 text-dark">500 ml</p>
+                      <p class="col-3 text-dark">105 x 170</p>
+                      <p class="col-2 text-dark">34</p>
+                      <p class="col-2 text-dark">250 gm</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU114B.032</p>
+                      <p class="col-2 text-dark">1000 ml</p>
+                      <p class="col-3 text-dark">131 x 205</p>
+                      <p class="col-2 text-dark">42</p>
+                      <p class="col-2 text-dark">400 gm</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU114B.033</p>
+                      <p class="col-2 text-dark">2000 ml</p>
+                      <p class="col-3 text-dark">166 x 240</p>
+                      <p class="col-2 text-dark">51</p>
+                      <p class="col-2 text-dark">750 gm</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU114B.034</p>
+                      <p class="col-2 text-dark">3000 ml</p>
+                      <p class="col-3 text-dark">190 x 305</p>
+                      <p class="col-2 text-dark">50</p>
+                      <p class="col-2 text-dark">900 gm</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU114B.035</p>
+                      <p class="col-2 text-dark">5000 ml</p>
+                      <p class="col-3 text-dark">225 x 350</p>
+                      <p class="col-2 text-dark">60</p>
+                      <p class="col-2 text-dark">1.400 kg</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU114B.036</p>
+                      <p class="col-2 text-dark">6000 ml</p>
+                      <p class="col-3 text-dark">236 x 330</p>
+                      <p class="col-2 text-dark">65</p>
+                      <p class="col-2 text-dark">1.550 kg</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU114B.037</p>
+                      <p class="col-2 text-dark">10000 ml</p>
+                      <p class="col-3 text-dark">285 x 380</p>
+                      <p class="col-2 text-dark">65</p>
+                      <p class="col-2 text-dark">2.500 kg</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU114B.038</p>
+                      <p class="col-2 text-dark">20000 ml</p>
+                      <p class="col-3 text-dark">350 x 505</p>
+                      <p class="col-2 text-dark">87</p>
+                      <p class="col-2 text-dark">3.500 kg</p>
+                    </div>
+                  </div>
+          
+                  <!-- See Price -->
+                  <div class="d-flex justify-content-center align-items-center gap-3 mt-4">
+                    <button
+                      class="see-more-btn btn btn-outline-primary btn-sm px-4"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#more-114B"
+                      aria-expanded="false"
+                      onclick="toggleBtnText(this)"
+                    >
+                      See more
+                    </button>
+                    <div>
+                      <a
+                        href="contact.html"
+                        class="btn btn-sm btn-see-price px-4 border border-primary bg-primary text-white shadow-sm"
+                      >
+                        See Price
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <!-- DU115 – Flask, Round Bottom & Flat Bottom, with Socket -->
+        <div class="product card shadow-sm p-4 mb-4 bg-white rounded-4">
+          <div class="row product-header align-items-center mb-4">
+            <div class="col-md-4 text-center mb-3 mb-md-0">
+              <a href="#">
+                <div class="p-3 bg-light rounded-3 shadow-sm d-inline-block">
+                  <img
+                    class="img-fluid"
+                    src="img/Picture115.jpg"
+                    alt="Flask, Round Bottom & Flat Bottom, with Socket"
+                    style="width: 160px; height: 120px; object-fit: contain"
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="col-md-8">
+              <a href="#" class="text-decoration-none text-dark">
+                <h3 class="h5">
+                  3. Flask, Round Bottom & Flat Bottom, with Socket
+                </h3>
+              </a>
+              <p class="text-dark mb-3">Product Code: DU115 Series</p>
+            </div>
+          </div>
+
+          <div class="container">
+            <div id="section-115">
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8 text-center small-text">
+                  <div class="row row-heading mb-2 small-text">
+                    <p class="col-3 text-dark fw-bold">Product Code</p>
+                    <p class="col-2 text-dark fw-bold">Capacity (ml)</p>
+                    <p class="col-3 text-dark fw-bold">Joint(s)</p>
+                    <p class="col-2 text-dark fw-bold">Weight</p>
+                    <p class="col-2 text-dark fw-bold">Height (mm)</p>
+                  </div>
+          
+                  <div class="product-row row">
+                    <p class="col-3 text-dark">DU115.050</p>
+                    <p class="col-2 text-dark">50 ml</p>
+                    <p class="col-3 text-dark">B-14 / B-19</p>
+                    <p class="col-2 text-dark">50 gm</p>
+                    <p class="col-2 text-dark">95</p>
+                  </div>
+                  <div class="product-row row">
+                    <p class="col-3 text-dark">DU115.051</p>
+                    <p class="col-2 text-dark">100 ml</p>
+                    <p class="col-3 text-dark">B-24 / B-19</p>
+                    <p class="col-2 text-dark">70 gm</p>
+                    <p class="col-2 text-dark">115</p>
+                  </div>
+                  <div class="product-row row">
+                    <p class="col-3 text-dark">DU115.052</p>
+                    <p class="col-2 text-dark">150 ml</p>
+                    <p class="col-3 text-dark">B-24 / B-19</p>
+                    <p class="col-2 text-dark">100 gm</p>
+                    <p class="col-2 text-dark">135</p>
+                  </div>
+                  <div class="product-row row">
+                    <p class="col-3 text-dark">DU115.053</p>
+                    <p class="col-2 text-dark">250 ml</p>
+                    <p class="col-3 text-dark">B-24 / B-19</p>
+                    <p class="col-2 text-dark">120 gm</p>
+                    <p class="col-2 text-dark">140</p>
+                  </div>
+                  <div class="collapse" id="more-115">
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU115.054</p>
+                      <p class="col-2 text-dark">300 ml</p>
+                      <p class="col-3 text-dark">B-24 / B-19</p>
+                      <p class="col-2 text-dark">125 gm</p>
+                      <p class="col-2 text-dark">160</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU115.055</p>
+                      <p class="col-2 text-dark">500 ml</p>
+                      <p class="col-3 text-dark">B-24 / B-19</p>
+                      <p class="col-2 text-dark">170 gm</p>
+                      <p class="col-2 text-dark">165</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU115.056</p>
+                      <p class="col-2 text-dark">1000 ml</p>
+                      <p class="col-3 text-dark">B-24 / B-19</p>
+                      <p class="col-2 text-dark">300 gm</p>
+                      <p class="col-2 text-dark">195</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU115.057</p>
+                      <p class="col-2 text-dark">2000 ml</p>
+                      <p class="col-3 text-dark">B-24 / B-19</p>
+                      <p class="col-2 text-dark">650 gm</p>
+                      <p class="col-2 text-dark">245</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU115.058</p>
+                      <p class="col-2 text-dark">3000 ml</p>
+                      <p class="col-3 text-dark">B-24 / B-29</p>
+                      <p class="col-2 text-dark">800 gm</p>
+                      <p class="col-2 text-dark">265</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU115.059</p>
+                      <p class="col-2 text-dark">5000 ml</p>
+                      <p class="col-3 text-dark">B-24 / B-29</p>
+                      <p class="col-2 text-dark">1.200 kg</p>
+                      <p class="col-2 text-dark">300</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU115.060</p>
+                      <p class="col-2 text-dark">6000 ml</p>
+                      <p class="col-3 text-dark">B-29 / B-34</p>
+                      <p class="col-2 text-dark">1.400 kg</p>
+                      <p class="col-2 text-dark">330</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU115.061</p>
+                      <p class="col-2 text-dark">10000 ml</p>
+                      <p class="col-3 text-dark">B-29 / B-34</p>
+                      <p class="col-2 text-dark">2.000 kg</p>
+                      <p class="col-2 text-dark">385</p>
+                    </div>
+                    <div class="product-row row">
+                      <p class="col-3 text-dark">DU115.062</p>
+                      <p class="col-2 text-dark">20000 ml</p>
+                      <p class="col-3 text-dark">B-29 / B-34</p>
+                      <p class="col-2 text-dark">3.000 kg</p>
+                      <p class="col-2 text-dark">435</p>
+                    </div>
+                  </div>
+          
+                  <!-- See Price -->
+                  <div class="d-flex justify-content-center align-items-center gap-3 mt-4">
+                    <button
+                      class="see-more-btn btn btn-outline-primary btn-sm px-4"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#more-115"
+                      aria-expanded="false"
+                      onclick="toggleBtnText(this)"
+                    >
+                      See more
+                    </button>
+                    <div>
+                      <a
+                        href="contact.html"
+                        class="btn btn-sm btn-see-price px-4 border border-primary bg-primary text-white shadow-sm"
+                      >
+                        See Price
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="product card shadow-sm p-4 mb-4 bg-white rounded-4">
+            <div class="row product-header align-items-center mb-4">
+              <div class="col-md-4 text-center mb-3 mb-md-0">
+                <a href="#">
+                  <div class="p-3 bg-light rounded-3 shadow-sm d-inline-block">
+                    <img
+                      class="img-fluid"
+                      src="img/Picture116.jpg"
+                      alt="Flask, Round Bottom & Flat Bottom, with Socket (Heavy Wall)"
+                      style="width: 160px; height: 120px; object-fit: contain"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-8">
+                <a href="#" class="text-decoration-none text-dark">
+                  <h3 class="h5">
+                    4. Flask, Round Bottom & Flat Bottom, with Socket (Heavy Wall)
+                  </h3>
+                </a>
+                <p class="text-dark mb-3">Product Code: DU116 Series</p>
+              </div>
+            </div>
+          
+            <div class="container">
+              <div id="section-116">
+                <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-8 text-center">
+                    <div class="row row-heading mb-2 small-text">
+                      <div class="col-3 text-dark fw-bold">Product Code</div>
+                      <div class="col-2 text-dark fw-bold">Capacity (ml)</div>
+                      <div class="col-3 text-dark fw-bold">Joint(s)</div>
+                      <div class="col-2 text-dark fw-bold">Weight</div>
+                      <div class="col-2 text-dark fw-bold">Height (mm)</div>
+                    </div>
+            
+                    <div class="product-row row">
+                      <div class="col-3 text-dark"><p class="small-text">DU116.050</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">50 ml</p></div>
+                      <div class="col-3 text-dark"><p class="small-text">B-14 / B-19</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">70 gm</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">95</p></div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-3 text-dark"><p class="small-text">DU116.051</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">100 ml</p></div>
+                      <div class="col-3 text-dark"><p class="small-text">B-24 / B-19</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">100 gm</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">115</p></div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-3 text-dark"><p class="small-text">DU116.052</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">150 ml</p></div>
+                      <div class="col-3 text-dark"><p class="small-text">B-24 / B-19</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">110 gm</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">135</p></div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-3 text-dark"><p class="small-text">DU116.053</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">250 ml</p></div>
+                      <div class="col-3 text-dark"><p class="small-text">B-24 / B-19</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">140 gm</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">140</p></div>
+                    </div>
+                    <div class="collapse" id="more-116">
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU116.054</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">300 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">B-24 / B-19</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">145 gm</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">160</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU116.055</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">500 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">B-24 / B-19</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">250 gm</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">165</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU116.056</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">1000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">B-24 / B-19</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">400 gm</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">195</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU116.057</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">2000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">B-24 / B-19</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">800 gm</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">265</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU116.058</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">3000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">B-24 / B-29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">900 gm</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">272</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU116.059</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">5000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">B-24 / B-29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">1.400 kg</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">300</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU116.060</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">6000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">B-29 / B-34</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">1.550 kg</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">340</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU116.061</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">10000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">B-29 / B-34</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">2.500 kg</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">385</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU116.062</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">20000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">B-29 / B-34</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">3.500 kg</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">435</p></div>
+                      </div>
+                    </div>
+            
+                    <!-- See Price -->
+                    <div class="d-flex justify-content-center align-items-center gap-3 mt-4">
+                      <button class="see-more-btn btn btn-outline-primary btn-sm px-4" data-bs-toggle="collapse" data-bs-target="#more-116" aria-expanded="false" onclick="toggleBtnText(this)">
+                        See more
+                      </button>
+                      <div>
+                        <a href="contact.html" class="btn btn-sm btn-see-price px-4 border border-primary bg-primary text-white shadow-sm">
+                          See Price
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>            
+          </div>
+
+          <div class="product card shadow-sm p-4 mb-4 bg-white rounded-4">
+            <div class="row product-header align-items-center mb-4">
+              <div class="col-md-4 text-center mb-3 mb-md-0">
+                <a href="#">
+                  <div class="p-3 bg-light rounded-3 shadow-sm d-inline-block">
+                    <img
+                      class="img-fluid"
+                      src="img/Picture117.jpg"
+                      alt="Flask, Round Bottom, Two Neck, Centre Neck and One Angled Side Neck"
+                      style="width: 160px; height: 120px; object-fit: contain"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-8">
+                <a href="#" class="text-decoration-none text-dark">
+                  <h3 class="h5">
+                    5. Flask, Round Bottom, Two Neck, Centre Neck and One Angled Side Neck
+                  </h3>
+                </a>
+                <p class="text-dark mb-3">Product Code: DU117 Series</p>
+              </div>
+            </div>
+          
+            <div class="container">
+              <div id="section-117">
+                <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-8 text-center">
+                    <div class="row row-heading mb-2 small-text">
+                      <div class="col-3 text-dark fw-bold">Product Code</div>
+                      <div class="col-2 text-dark fw-bold">Capacity (ml)</div>
+                      <div class="col-3 text-dark fw-bold">Centre Neck Joint</div>
+                      <div class="col-2 text-dark fw-bold">Side Neck Joint</div>
+                      <div class="col-2 text-dark fw-bold">Height (mm)</div>
+                    </div>
+            
+                    <div class="product-row row">
+                      <div class="col-3 text-dark"><p class="small-text">DU117.001001</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">100 ml</p></div>
+                      <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">14 / 23</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">115</p></div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-3 text-dark"><p class="small-text">DU117.001002</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">100 ml</p></div>
+                      <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">19 / 26</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">115</p></div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-3 text-dark"><p class="small-text">DU117.001003</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">250 ml</p></div>
+                      <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">14 / 23</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">145</p></div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-3 text-dark"><p class="small-text">DU117.001004</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">250 ml</p></div>
+                      <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">19 / 26</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">145</p></div>
+                    </div>
+                    <div class="collapse" id="more-117">
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU117.001005</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">250 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">29 / 32</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">14 / 23</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">145</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU117.001006</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">500 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">14 / 23</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">175</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU117.001007</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">500 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">29 / 32</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">19 / 26</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">175</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU117.001008</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">1000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">14 / 23</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">210</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU117.001009</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">1000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">19 / 26</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">210</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU117.001010</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">1000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">29 / 32</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">14 / 23</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">210</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU117.001011</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">2000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">34 / 35</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">19 / 26</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">223</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU117.001012</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">3000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">34 / 35</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">24 / 29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">265</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU117.001013</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">5000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">34 / 35</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">24 / 29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">300</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU117.001014</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">10000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">34 / 35</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">24 / 29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">385</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU117.001015</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">20000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">55 / 44</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">24 / 29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">435</p></div>
+                      </div>
+                    </div>
+            
+                    <!-- See More -->
+                    <div class="d-flex justify-content-center align-items-center gap-3 mt-4">
+                      <button
+                        class="see-more-btn btn btn-outline-primary btn-sm px-4"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#more-117"
+                        aria-expanded="false"
+                        onclick="toggleBtnText(this)"
+                      >
+                        See more
+                      </button>
+                      <div>
+                        <a
+                          href="contact.html"
+                          class="btn btn-sm btn-see-price px-4 border border-primary bg-primary text-white shadow-sm"
+                        >
+                          See Price
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="product card shadow-sm p-4 mb-4 bg-white rounded-4">
+            <div class="row product-header align-items-center mb-4">
+              <div class="col-md-4 text-center mb-3 mb-md-0">
+                <a href="#">
+                  <div class="p-3 bg-light rounded-3 shadow-sm d-inline-block">
+                    <img
+                      class="img-fluid"
+                      src="img/Picture118.png"
+                      alt="Flask, Round Bottom, Three Neck, Centre Neck and Two Angled Side Neck"
+                      style="width: 160px; height: 120px; object-fit: contain"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-8">
+                <a href="#" class="text-decoration-none text-dark">
+                  <h3 class="h5">
+                    6. Flask, Round Bottom, Three Neck, Centre Neck and Two Angled Side Neck
+                  </h3>
+                </a>
+                <p class="text-dark mb-3">Product Code: DU118 Series</p>
+              </div>
+            </div>
+          
+            <div class="container">
+              <div id="section-118">
+                <div class="row">
+                  <div class="col-md-4"></div>
+                  <div class="col-md-8 text-center">
+                    <div class="row row-heading mb-2 small-text">
+                      <div class="col-3 text-dark fw-bold">Product Code</div>
+                      <div class="col-2 text-dark fw-bold">Capacity (ml)</div>
+                      <div class="col-3 text-dark fw-bold">Centre Neck Joint</div>
+                      <div class="col-2 text-dark fw-bold">Side Neck Joint's</div>
+                      <div class="col-2 text-dark fw-bold">Height (mm)</div>
+                    </div>
+            
+                    <div class="product-row row">
+                      <div class="col-3 text-dark"><p class="small-text">DU118.00111</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">100 ml</p></div>
+                      <div class="col-3 text-dark"><p class="small-text">19 / 26</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">14 / 23</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">115</p></div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-3 text-dark"><p class="small-text">DU118.00112</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">100 ml</p></div>
+                      <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">14 / 23</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">115</p></div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-3 text-dark"><p class="small-text">DU118.00113</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">100 ml</p></div>
+                      <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">19 / 26</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">115</p></div>
+                    </div>
+                    <div class="product-row row">
+                      <div class="col-3 text-dark"><p class="small-text">DU118.00114</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">250 ml</p></div>
+                      <div class="col-3 text-dark"><p class="small-text">19 / 26</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">19 / 26</p></div>
+                      <div class="col-2 text-dark"><p class="small-text">145</p></div>
+                    </div>
+                    <div class="collapse" id="more-118">
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU118.00115</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">250 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">14 / 23</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">145</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU118.00116</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">250 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">19 / 26</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">145</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU118.00117</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">250 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">29 / 32</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">14 / 23</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">145</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU118.00118</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">250 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">29 / 32</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">19 / 26</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">145</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU118.00119</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">500 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">14 / 23</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">175</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU118.00120</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">500 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">29 / 32</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">19 / 26</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">175</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU118.00121</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">500 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">14 / 23</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">175</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU118.00122</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">500 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">29 / 32</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">19 / 26</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">175</p></div>
+                      </div>
+                      <div class="product-row row">
+                        <div class="col-3 text-dark"><p class="small-text">DU118.00123</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">1000 ml</p></div>
+                        <div class="col-3 text-dark"><p class="small-text">24 / 29</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">14 / 23</p></div>
+                        <div class="col-2 text-dark"><p class="small-text">210</p></div>
+                      </div>
+                    </div>
+            
+                    <!-- See More -->
+                    <div class="d-flex justify-content-center align-items-center gap-3 mt-4">
+                      <button
+                        class="see-more-btn btn btn-outline-primary btn-sm px-4"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#more-118"
+                        aria-expanded="false"
+                        onclick="toggleBtnText(this)"
+                      >
+                        See more
+                      </button>
+                      <div>
+                        <a
+                          href="contact.html"
+                          class="btn btn-sm btn-see-price px-4 border border-primary bg-primary text-white shadow-sm"
+                        >
+                          See Price
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          
+          
+          
+
+      </div>
+    </div>
+    <!-- Products End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial py-5">
+      <div class="container pt-5">
+          <div class="row gy-5 gx-0">
+              <div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
+                  <h1 class="display-6 text-white mb-4">What Our Clients Say About Our Glassware</h1>
+                  <p class="text-white mb-5">Trusted by researchers, educators, and manufacturers across India, we take pride in offering durable, high-precision laboratory glassware that meets global standards.</p>
+                  <a href="#" class="btn btn-primary py-3 px-5">More Testimonials</a>
+              </div>
+              <div class="col-lg-6 mb-n5 wow fadeIn" data-wow-delay="0.5s">
+                  <div class="bg-white p-5">
+                      <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.1s">
+                          <div class="testimonial-item">
+                              <div class="icon-box-primary mb-4">
+                                  <i class="bi bi-chat-left-quote text-dark"></i>
+                              </div>
+                              <p class="fs-5 mb-4">We’ve been using glassware from Durga Laboratory for over five years now, and the quality has always exceeded our expectations. The precision in measurements, durability under repeated sterilizations, and overall finish of the products make them ideal for our research lab. Their customer service is also excellent — responsive, helpful, and willing to customize products based on our needs. Highly recommended for any laboratory that values consistency and quality.</p>
+                              <div class="ps-3">
+                                  <h5 class="mb-1">Dr. Anjali Mehta</h5>
+                                  <span class="text-primary">Senior Research Scientist, Mumbai</span>
+                              </div>
+                          </div>
+                          <div class="testimonial-item">
+                              <div class="icon-box-primary mb-4">
+                                  <i class="bi bi-chat-left-quote text-dark"></i>
+                              </div>
+                              <p class="fs-5 mb-4">Durga Laboratory glassware has been our go-to choice for the past three academic years. The quality and consistency are perfect for student experiments as well as our research work. We especially appreciate the prompt delivery and the ability to get customized items for specific lab setups.</p>
+                              <div class="ps-3">
+                                  <h5 class="mb-1">Prof. Rajeev Kulkarni</h5>
+                                  <span class="text-primary">Department of Chemistry, Pune University</span>
+                              </div>
+                          </div>
+                          <div class="testimonial-item">
+                              <div class="icon-box-primary mb-4">
+                                  <i class="bi bi-chat-left-quote text-dark"></i>
+                              </div>
+                              <p class="fs-5 mb-4">We run a high-volume materials testing lab, and durability is crucial for us. The glassware from Durga Laboratory holds up excellently under daily use, even in high-temperature and pressure settings. Their disposable range has also made our workflow more efficient. Great partner to work with.</p>
+                              <div class="ps-3">
+                                  <h5 class="mb-1">Vikas Sharma</h5>
+                                  <span class="text-primary">Lab Manager</span>
+                              </div>
+                          </div>
+                          <div class="testimonial-item">
+                              <div class="icon-box-primary mb-4">
+                                  <i class="bi bi-chat-left-quote text-dark"></i>
+                              </div>
+                              <p class="fs-5 mb-4">What stands out with Durga is not just the product quality, but their understanding of how laboratories actually work. Their culture tubes and pipettes have become a regular part of our diagnostics bench. We also appreciate the QR code feature in their catalog — it makes reordering so easy.</p>
+                              <div class="ps-3">
+                                  <h5 class="mb-1">Dr. Neha Thomas</h5>
+                                  <span class="text-primary">Pathologist</span>
+                              </div>
+                          </div>
+                          <div class="testimonial-item">
+                              <div class="icon-box-primary mb-4">
+                                  <i class="bi bi-chat-left-quote text-dark"></i>
+                              </div>
+                              <p class="fs-5 mb-4">Their volumetric flasks and custom-made apparatus helped streamline our college lab setups. We appreciate their attention to detail and willingness to customize according to our curriculum needs.</p>
+                              <div class="d-flex align-items-center">
+                                  <div class="ps-3">
+                                      <h5 class="mb-1">Prof. Anil Verma</h5>
+                                      <span class="text-primary">Lab Coordinator</span>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- Add more testimonials here if needed -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container">
+        <div class="row g-5 py-5">
+          <div class="col-lg-6 pe-lg-5">
+            <a href="index.html" class="navbar-brand">
+              <h1 class="h1 text-primary mb-0 fw-bold text-uppercase fs-4 fs-sm-3 fs-md-2 display-6 display-lg-5">
+                Durga Laboratory<span class="d-block d-sm-inline text-white"> Glass Works</span>
+              </h1> 
+            </a>
+            
+            <p>
+              <i class="fa fa-map-marker-alt me-2"></i>43/3, Balwant Nagar,
+              Behind K. K Nagar, Sikandra, Agra - 07
+            </p>
+            <p>
+              <i class="fa fa-phone-alt me-2"></i>+91-9897012296, +91-7017632563
+            </p>
+            <p>
+              <i class="fa fa-envelope me-2"></i
+              >durgalaboratoryglassworks@gmail.com
+            </p>
+            <div class="d-flex mt-4">
+              <a class="btn btn-lg-square btn-primary me-2" href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-lg-square btn-primary me-2" href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-lg-square btn-primary me-2" href="#"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a class="btn btn-lg-square btn-primary me-2" href="#"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-6 ps-lg-5">
+            <div class="row g-5">
+              <div class="col-sm-6">
+                <h4 class="text-light mb-4">Quick Links</h4>
+                <a class="btn btn-link" href="about.html">About Us</a>
+                <a class="btn btn-link" href="contact.html">Contact Us</a>
+                <a class="btn btn-link" href="product.html">Our Products</a>
+                <a class="btn btn-link" href="termsandcondition.html">Terms & Condition</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark text-white-50 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-0">
+              &copy; <a href="#">Durga Laboratory Glass Works</a>. All Rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+      function toggleBtnText(btn) {
+        const targetId = btn.getAttribute("data-bs-target");
+        const target = document.querySelector(targetId);
+        const isExpanded = target.classList.contains("show");
+        btn.innerText = isExpanded ? "See more" : "See less";
+      }
+
+      // Fix button text on toggle complete (for accordion-like effect)
+      document.querySelectorAll(".collapse").forEach((collapseEl) => {
+        collapseEl.addEventListener("shown.bs.collapse", (e) => {
+          const btn = document.querySelector(
+            `[data-bs-target="#${collapseEl.id}"]`
+          );
+          if (btn) btn.innerText = "See less";
+        });
+        collapseEl.addEventListener("hidden.bs.collapse", (e) => {
+          const btn = document.querySelector(
+            `[data-bs-target="#${collapseEl.id}"]`
+          );
+          if (btn) btn.innerText = "See more";
+        });
+      });
+    </script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
